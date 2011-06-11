@@ -1,0 +1,36 @@
+/*   
+Theme Name: thematic-childtheme-960gs-base
+Theme URI: 
+Description: Use this theme to start your Thematic Child Theme development with 960gs.
+Author: Steve O'Neal
+Author URI: 
+Template: thematic
+Version: 1.0
+Tags: Thematic
+.
+Thematic is © Ian Stewart http://themeshaper.com/
+.
+*/
+
+/* Reset browser defaults */
+@import url('../thematic/library/styles/reset.css');
+
+/* Apply basic typography styles */
+@import url('../thematic/library/styles/typography.css');
+
+/* Apply a basic layout */
+@import url('css/960gs/960.css');
+/* Remove this after complete */
+@import url('css/960gs/demo.css');
+
+/* Apply basic image styles */
+@import url('../thematic/library/styles/images.css');
+
+/* Apply default theme styles and colors */
+/* It's better to actually copy over default.css into this file (or link to a copy in your child theme) if you're going to do anything outrageous */
+@import url('../thematic/library/styles/default.css');
+
+/* Prepare theme for plugins */
+@import url('../thematic/library/styles/plugins.css');
+
+
